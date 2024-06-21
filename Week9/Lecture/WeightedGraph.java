@@ -1,9 +1,5 @@
 package Week9.Lecture;
-
-// WIA/WIB1002 Data Structures
-// part of Graphs implementation using List
 import java.util.ArrayList;
-
 class WeightedGraph<T extends Comparable<T>, N extends Comparable <N>> {
    Vertex<T,N> head;
    int size;

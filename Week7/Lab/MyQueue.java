@@ -68,8 +68,6 @@ class testQueue{
         System.out.println(fruitQ.contains(4));
         System.out.println(fruitQ.toString());
 
-
-
     }
 }
 

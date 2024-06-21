@@ -2,13 +2,7 @@ package Week12.Lab;
 
 
 public class GenericSelectionSort {
-  /**
-    * Sorts the specified array of integers using the selection
-    * sort algorithm.
-    *
-    * @param <T>
-    * @param list the array to be sorted
-    */
+
     public static <T extends Comparable<T>> void selectionSort(T[] list)
     {
         for (int i = 0; i < list.length-1; i++) {

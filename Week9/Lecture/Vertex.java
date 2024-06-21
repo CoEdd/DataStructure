@@ -1,6 +1,4 @@
 package Week9.Lecture;
-
-// WIA/WIB1002 Data Structures
 // part of Graphs implementation using List
 class Vertex<T extends Comparable<T>, N extends Comparable <N>> {
    T vertexInfo;
