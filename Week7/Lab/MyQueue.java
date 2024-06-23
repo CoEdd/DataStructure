@@ -5,7 +5,6 @@ import java.util.LinkedList;
 public class MyQueue<E> {
     LinkedList<E> list = new LinkedList<>();
 
-
     public MyQueue(E[] e){
         for (E item : e) {
             enqueue(item);
