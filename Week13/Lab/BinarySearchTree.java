@@ -1,8 +1,6 @@
 package Week13.Lab;
 
-
 // Define the Node class
-
 import java.util.Stack;
 
 class Node<E> {

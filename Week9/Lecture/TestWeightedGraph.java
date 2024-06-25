@@ -1,6 +1,5 @@
 package Week9.Lecture;
 
-
  public class TestWeightedGraph {
    public static void main(String[] args) {
       WeightedGraph<String, Integer> graph1 = new WeightedGraph<>();
@@ -47,9 +46,9 @@ package Week9.Lecture;
       System.out.println("In and out degree for Ipoh is " + graph1.getIndeg("Ipoh") + " and " + graph1.getOutdeg("Ipoh") );
       System.out.println();
     
-      System.out.println("Neighbours of Kuching : " + graph1.getNeighbours("Kuching"));
-      System.out.println("\nPrint Edges : " );
-      graph1.printEdges();
+      // System.out.println("Neighbours of Kuching : " + graph1.getNeighbours("Kuching"));
+      // System.out.println("\nPrint Edges : " );
+      // graph1.printEdges();
       
    }
  }

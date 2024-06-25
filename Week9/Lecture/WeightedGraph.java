@@ -1,5 +1,7 @@
 package Week9.Lecture;
+
 import java.util.ArrayList;
+
 class WeightedGraph<T extends Comparable<T>, N extends Comparable <N>> {
    Vertex<T,N> head;
    int size;
